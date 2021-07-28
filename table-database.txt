@@ -1,0 +1,10 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+ID        Name:                            Type                    Atribute
+1         Marca:                           Varchar                 NotNull/Unique  
+2         Modello:                         Varchar                 NotNull/Unique
+3         Anno di immatricolazione:        Tinyint                 Null/Unique
+4         Cilindrata:                      Float(6,2)              NotNull/Unique  
+5         Indice Inquinamento:             Tinyint                 NotNull/Unique  
+6         Colore:                          Varchar                 NotNull/Unique  
+7         n.porte:                         Tinyint                 NotNull/Unique
